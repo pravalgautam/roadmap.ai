@@ -61,12 +61,9 @@ const LandingPage = () => {
 
 return (
   <div className="min-h-screen w-full bg-white flex flex-col">
-    {/* Header */}
     <header className="flex justify-start items-center h-16 px-6 border-b border-gray-300">
       <h1 className="text-lg sm:text-xl font-light text-black">Learn faster with AI</h1>
     </header>
-
-    {/* Hero */}
     <section className="mt-16 sm:mt-24 flex flex-col justify-center items-center text-center px-4">
       <div className="max-w-4xl mx-auto">
         <div className="inline-flex items-center px-4 py-2 bg-blue-50 rounded-full text-blue-600 text-sm font-medium mb-6">
@@ -91,7 +88,6 @@ return (
       </div>
     </section>
 
-    {/* Typing Box */}
     <section className="bg-white rounded-2xl shadow-xl p-6 sm:p-8 mt-10 mb-12 w-full max-w-xl mx-auto">
       <div className="flex items-center space-x-2 mb-4">
         <div className="w-3 h-3 bg-red-500 rounded-full"></div>
@@ -106,8 +102,6 @@ return (
         </div>
       </div>
     </section>
-
-    {/* Footer */}
     <footer className="mt-auto py-6 text-center text-xs sm:text-sm text-gray-500 px-2">
       © {new Date().getFullYear()} Roadmap.ai — All rights reserved by pravalgautam
     </footer>
